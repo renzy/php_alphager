@@ -7,7 +7,7 @@ class alphager {
 
 	public function __construct($base_chars_custom=false){
 		$this->chars = ($base_chars_custom) ? $base_chars_custom : $this->base_chars_default;
-		$this->base = count($this->base_chars_default);
+		$this->base = count($this->chars);
 	}
 
 	public function alpha2int($a, $val=0){
